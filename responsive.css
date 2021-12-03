@@ -1,0 +1,240 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    main {
+        height: 49vh;
+    }
+
+    .mainContent {
+        height: 28vh;
+    }
+
+    header{
+        height: 1vh;
+    }
+
+
+    .book {
+        height: 18vh;
+    }
+
+    .textAbout {
+        width: 77vw;
+    }
+
+    .witch {
+        height: 34vh;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: var(--textDefault);
+        padding: 1rem 1.5rem;}
+
+
+    .magicCard {
+        margin: 2rem;
+    }
+
+    .magicBorder {
+        height: 22vh;
+        width: 13vw;}
+
+    .magicCard {
+        height: 24vh;
+        width: 15vw;
+        margin-top: 3rem;
+    }
+
+    .cardImg {
+        max-height: 13vh;
+        margin: 0.5rem;
+    }
+
+    .forumBtn {
+        margin-top: 3rem;
+    }
+
+    .forum{
+        height: 48vh;
+    }
+
+
+    .about{
+        height: 44vh;}
+
+   
+    .cauldron {
+        height: 26vh;
+}
+
+.jobs {
+    height: 43vh;
+}
+
+    .rules {
+    height: 38vh;
+}
+
+    .rulesList {
+    font-size: 1.7rem;
+}
+
+}
+
+@media (max-width: 656px) {
+
+.magicCard {
+    height: 21vh;
+    width: 22vw;
+    margin-top: 3rem;
+}
+
+.magicBorder {
+    height: 19vh;
+    width: 18vw;
+}
+
+.cardImg {
+    max-height: 12vh;
+}
+
+.cauldron {
+    height: 23vh;
+}
+
+}
+
+@media (max-width: 550px) {
+
+    html {
+        font-size: 45%;
+    }
+
+    .jobs {
+        height: 47vh;
+    }
+
+    .rules {
+        height: 32vh;
+    }
+  
+}
+
+@media (max-width:425px) {
+
+    h1 {
+        font-size: 4.2rem;
+    }
+    .witch{
+        display:none;
+    }
+
+    nav li a{
+        display:none;
+
+    }
+
+    .cauldron {
+        display:none;
+    }
+
+    html {
+        font-size: 45%;
+    }
+
+    .rulesList {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .textRules {
+        margin-top: 2rem;
+    }
+
+    .textAbout {
+         font-size: 1.6rem;
+    }
+
+    .allCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forum {
+        height: 113vh;
+    }
+    .forumBtn {
+        width:26rem;
+    }
+
+    .magicCard {
+        height: 24vh;
+        width: 30vw;
+        margin-top: 3rem;
+    }
+
+    .magicBorder {
+        height: 22vh;
+        width: 26vw;
+    }
+
+    .rules {
+        height: 29vh;
+    }
+
+    .crystal {
+        width: 22vw;
+        margin-inline-end: 3rem;
+    }
+}
+
+@media (max-width:375px) {
+    html {
+        font-size: 40%;
+    }
+
+    footer {
+        height: 14vh;
+        padding:0;
+    }
+
+    nav {
+        margin-top: 2rem;
+    }
+
+    .loginBtn {
+        padding: 1rem 5.5rem;
+    }
+
+    .magicCard {
+        height: 18vh;
+        width: 30vw;
+        margin-top: 3rem;
+    }
+
+    .magicBorder {
+        height: 17vh;
+        width: 27vw;
+    }
+
+    .cardImg {
+        max-height: 9vh;
+        margin: 0.5rem;
+    }
+
+    .forum {
+        height: 89vh;
+    }
+
+    .crystal {
+        display:none;
+    }
+
+    .rulesList {
+        font-size: 1.5rem;
+    }
+
+}
